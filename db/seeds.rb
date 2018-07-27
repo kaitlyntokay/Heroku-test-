@@ -15,10 +15,11 @@ User.destroy_all
     name: Faker::Team.name,
     sport:Faker :: Team. sport,
   )
+# sfddsfds
 
   5.times do
     team.users.create(
       name: Faker::Name.unique.name,
     )
   end
-end 
+end
