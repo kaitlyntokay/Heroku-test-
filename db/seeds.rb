@@ -13,7 +13,7 @@ User.destroy_all
 3.times do
   team = Team.create(
     name: Faker::Team.name,
-    sport:Faker :: Team. sport,
+    sport: Faker::Team.sport,
   )
 # sfddsfds
 
